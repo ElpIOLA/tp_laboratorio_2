@@ -1,0 +1,14 @@
+C:\Users\ElpIOLA\Desktop\TP_1\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\ElpIOLA\Desktop\TP_1\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ElpIOLA\Desktop\TP_1\Entidades\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\ElpIOLA\Desktop\TP_1\Entidades\Entidades\bin\Debug\Entidades.exe
+C:\Users\ElpIOLA\Desktop\TP_1\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ElpIOLA\Desktop\TP_1\Entidades\Entidades\obj\Debug\Entidades.exe
+C:\Users\ElpIOLA\Desktop\TP_1\Entidades\Entidades\obj\Debug\Entidades.pdb
+E:\TP_1\Entidades\Entidades\bin\Debug\Entidades.exe.config
+E:\TP_1\Entidades\Entidades\bin\Debug\Entidades.exe
+E:\TP_1\Entidades\Entidades\bin\Debug\Entidades.pdb
+E:\TP_1\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\TP_1\Entidades\Entidades\obj\Debug\Entidades.exe
+E:\TP_1\Entidades\Entidades\obj\Debug\Entidades.pdb
+E:\TP_1\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
