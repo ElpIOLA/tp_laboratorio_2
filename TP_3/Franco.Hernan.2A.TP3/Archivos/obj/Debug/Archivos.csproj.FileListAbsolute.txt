@@ -9,3 +9,12 @@ E:\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Excepciones.pdb
 E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
 E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.dll
 E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.pdb
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Archivos.dll
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Archivos.pdb
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Excepciones.dll
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.dll
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.pdb

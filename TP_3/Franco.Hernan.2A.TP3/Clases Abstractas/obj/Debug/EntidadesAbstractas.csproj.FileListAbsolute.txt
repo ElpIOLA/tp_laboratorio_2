@@ -16,3 +16,12 @@ E:\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.csproj.C
 E:\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
 E:\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.dll
 E:\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.pdb
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\bin\Debug\EntidadesAbstractas.dll
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\bin\Debug\EntidadesAbstractas.pdb
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.dll
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\bin\Debug\Excepciones.pdb
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.dll
+C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Clases Abstractas\obj\Debug\EntidadesAbstractas.pdb
