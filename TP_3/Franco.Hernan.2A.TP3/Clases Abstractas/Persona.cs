@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
 
-namespace Clases_Abstractas
+namespace EntidadesAbstractas
 {
     public abstract class Persona
     {
@@ -139,20 +139,20 @@ namespace Clases_Abstractas
                         if (dni > 0 && dni < 90000000)
                             retorno = dni;
                         else
-                            throw new NacionalidadInvalidadException("La nacionalidad no coincide con el dni.");
+                            throw new NacionalidadInvalidaException("La nacionalidad no se condice con el número de DNI.");
                         break;
                     case ENacionalidad.Extranjero:
                         if (dni >= 90000000 && dni <= 99999999)
                             retorno = dni;
                         else
-                            throw new NacionalidadInvalidadException("La nacionalidad no coincide con el dni.");
+                            throw new NacionalidadInvalidaException("La nacionalidad no se condice con el número de DNI.");
                         break;
                     default:
                         break;
                 }
             }
             else
-                throw new DniInvalidoException("El dni no es valido.");
+                throw new DniInvalidoException("La nacionalidad no se condice con el número de DNI.");
 
             return dni;
         }
@@ -191,11 +191,18 @@ namespace Clases_Abstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("\nNombre: {0}", this.Nombre);
-            sb.AppendFormat("\nApellido: {0}", this.Apellido);
+            sb.AppendFormat("\nNombre completo: {0} {1}", this.Nombre, this.Apellido);
             sb.AppendFormat("\nNacionalidad: {0}", this.Nacionalidad);
             sb.AppendFormat("\nDNI: {0}", this.DNI);
             return sb.ToString();
+        }
+        #endregion
+
+        #region Enumerados
+        public enum ENacionalidad
+        {
+            Argentino,
+            Extranjero
         }
         #endregion
     }

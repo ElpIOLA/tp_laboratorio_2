@@ -1,0 +1,11 @@
+F:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+F:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+E:\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Archivos.dll
+E:\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Archivos.pdb
+E:\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Excepciones.dll
+E:\Franco.Hernan.2A.TP3\Archivos\bin\Debug\Excepciones.pdb
+E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.csproj.CopyComplete
+E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.dll
+E:\Franco.Hernan.2A.TP3\Archivos\obj\Debug\Archivos.pdb
