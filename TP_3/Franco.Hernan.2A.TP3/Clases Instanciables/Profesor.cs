@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Clases_Abstractas;
+using EntidadesAbstractas;
 
-namespace Clases_Instanciables
+namespace EntidadesInstanciables
 {
     public sealed class Profesor : Universitario
     {
         #region Atributos
-        private Queue<EClases> clasesDelDia;
+        private Queue<Universidad.EClases> clasesDelDia;
         private static Random random;
         #endregion
 
@@ -26,7 +26,7 @@ namespace Clases_Instanciables
         /// <summary>
         /// Constructor de instancia que inicializa los atributos por default.
         /// </summary>
-        public Profesor() : this(0,"vacio","vacio","vacio", ENacionalidad.Argentino)
+        public Profesor()
         {}
 
         /// <summary>
@@ -37,9 +37,9 @@ namespace Clases_Instanciables
         /// <param name="apellido">Variable de tipo string.</param>
         /// <param name="dni">Variable de tipo string.</param>
         /// <param name="nacionalidad">Variable de tipo ENacionalidad.</param>
-        public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
+        public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad) : base(id,nombre,apellido,dni,nacionalidad)
         {
-            this.clasesDelDia = new Queue<EClases>();
+            this.clasesDelDia = new Queue<Universidad.EClases>();
             this._randomClases();
         }
         #endregion
@@ -51,12 +51,14 @@ namespace Clases_Instanciables
         /// <returns>Retorna un string con las clases del Profesor.</returns>
         protected override string ParticiparEnClase()
         {
-            string retorno = "";
-            foreach(EClases item in this.clasesDelDia)
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("CLASES DEL DIA:\n");
+
+            foreach (Universidad.EClases item in this.clasesDelDia)
             {
-                retorno += "\nCLASES DEL DIA: " + item;
+                sb.AppendLine(item.ToString());
             }
-            return retorno;
+            return sb.ToString();
         }
 
         /// <summary>
@@ -76,8 +78,8 @@ namespace Clases_Instanciables
         /// </summary>
         private void _randomClases()
         {
-            this.clasesDelDia.Enqueue(((EClases)Profesor.random.Next(0 ,4)));
-            this.clasesDelDia.Enqueue(((EClases)Profesor.random.Next(0, 4)));
+            this.clasesDelDia.Enqueue(((Universidad.EClases)Profesor.random.Next(0 ,4)));
+            this.clasesDelDia.Enqueue(((Universidad.EClases)Profesor.random.Next(0, 4)));
         }
         #endregion
 
@@ -97,10 +99,10 @@ namespace Clases_Instanciables
         /// <param name="i">Objeto de tipo Profesor</param>
         /// <param name="clase">Elemento de tipo EClases</param>
         /// <returns>Retorna true si el Profesor da esa clase, sino retorna false.</returns>
-        public static bool operator ==(Profesor i, EClases clase)
+        public static bool operator ==(Profesor i, Universidad.EClases clase)
         {
             bool ret = false;
-            foreach(EClases item in i.clasesDelDia)
+            foreach(Universidad.EClases item in i.clasesDelDia)
             {
                 if(item == clase)
                 {
@@ -111,7 +113,13 @@ namespace Clases_Instanciables
             return ret;
         }
 
-        public static bool operator !=(Profesor i, EClases clase)
+        /// <summary>
+        /// Metodo que verifica si un Profesor es distinto a una Universidad.
+        /// </summary>
+        /// <param name="i">Objeto de tipo Profesor</param>
+        /// <param name="clase">Enumerados de tipo EClases</param>
+        /// <returns>Retorna false si son distintos, sino true.</returns>
+        public static bool operator !=(Profesor i, Universidad.EClases clase)
         {
             return !(i == clase);
         }

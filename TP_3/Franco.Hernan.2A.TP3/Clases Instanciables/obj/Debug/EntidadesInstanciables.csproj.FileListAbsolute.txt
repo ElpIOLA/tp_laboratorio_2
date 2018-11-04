@@ -1,0 +1,15 @@
+F:\Franco.Hernan.2A.TP3\Clases Instanciables\obj\Debug\EntidadesInstanciables.csprojAssemblyReference.cache
+F:\Franco.Hernan.2A.TP3\Clases Instanciables\obj\Debug\EntidadesInstanciables.csproj.CoreCompileInputs.cache
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\obj\Debug\EntidadesInstanciables.csprojAssemblyReference.cache
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\obj\Debug\EntidadesInstanciables.csproj.CoreCompileInputs.cache
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\EntidadesInstanciables.dll
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\EntidadesInstanciables.pdb
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\Archivos.dll
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\EntidadesAbstractas.dll
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\Excepciones.dll
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\Archivos.pdb
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\EntidadesAbstractas.pdb
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\bin\Debug\Excepciones.pdb
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\obj\Debug\EntidadesInstanciables.csproj.CopyComplete
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\obj\Debug\EntidadesInstanciables.dll
+E:\Franco.Hernan.2A.TP3\Clases Instanciables\obj\Debug\EntidadesInstanciables.pdb

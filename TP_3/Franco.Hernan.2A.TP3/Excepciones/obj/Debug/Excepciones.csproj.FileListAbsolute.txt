@@ -1,0 +1,12 @@
+F:\Franco.Hernan.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
+F:\Franco.Hernan.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+F:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+F:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+F:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
+F:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb
+E:\Franco.Hernan.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
+E:\Franco.Hernan.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
+E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb

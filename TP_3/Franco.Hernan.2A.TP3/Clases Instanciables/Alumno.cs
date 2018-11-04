@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Clases_Abstractas;
+using EntidadesAbstractas;
 
-namespace Clases_Instanciables
+namespace EntidadesInstanciables
 {
     public sealed class Alumno : Universitario
     {
         #region Atributo
-        private EClases claseQueToma;
+        private Universidad.EClases claseQueToma;
         private EEstadoCuenta estadoCuenta;
         #endregion
 
@@ -29,7 +29,7 @@ namespace Clases_Instanciables
         /// <param name="dni">Variable de tipo string.</param>
         /// <param name="nacionalidad">Variable de tipo ENacionaldad.</param>
         /// <param name="claseQueToma">Variable de tipo EClases.</param>
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionaldad nacionalidad, EClases claseQueToma)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
             : base(id,nombre,apellido,dni,nacionalidad)
         {
             this.claseQueToma = claseQueToma;
@@ -45,7 +45,7 @@ namespace Clases_Instanciables
         /// <param name="nacionalidad">Variable de tipo ENacionaldad.</param>
         /// <param name="ClaseQueToma">Variable de tipo EClases.</param>
         /// <param name="estadoCuenta">Variable de tipo EEstadoCuenta.</param>
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionaldad nacionalidad, EClases ClaseQueToma, EEstadoCuenta estadoCuenta)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases ClaseQueToma, EEstadoCuenta estadoCuenta)
             : this(id, nombre, apellido, dni, nacionalidad, ClaseQueToma)
         {
             this.estadoCuenta = estadoCuenta;
@@ -70,8 +70,19 @@ namespace Clases_Instanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat(base.MostrarDatos());
-            sb.AppendFormat("\nClase que toma: {0}", this.ParticiparEnClase());
-            sb.AppendFormat("\nEstado de cuenta: {0}", this.estadoCuenta);
+            switch (this.estadoCuenta)
+            {
+                case EEstadoCuenta.AlDia:
+                    sb.AppendLine("ESTADO DE CUENTA: cuota al dia.");
+                    break;
+                case EEstadoCuenta.Becado:
+                    sb.AppendLine("ESTADO DE CUENTA: cuota becada.");
+                    break;
+                case EEstadoCuenta.Deudor:
+                    sb.AppendLine("ESTADO DE CUENTA: cuota con deuda.");
+                    break;
+            }
+            sb.AppendLine(this.ParticiparEnClase());
             return sb.ToString();
         }
         #endregion
@@ -92,7 +103,7 @@ namespace Clases_Instanciables
         /// <param name="a">Objeto de tipo Alumno</param>
         /// <param name="clase">Enumerado de tipo EEStadoCuenta</param>
         /// <returns>Retorna true si son iguales, sino false.</returns>
-        public static bool operator ==(Alumno a, EClases clase)
+        public static bool operator ==(Alumno a, Universidad.EClases clase)
         {
             bool ret = false;
             if(a.claseQueToma == clase && a.estadoCuenta != EEstadoCuenta.Deudor)
@@ -108,7 +119,7 @@ namespace Clases_Instanciables
         /// <param name="a">Objeto de tipo Alumno</param>
         /// <param name="clase">Enumerado de tipo EEStadoCuenta</param>
         /// <returns>Retorna true si son distintos, sino retorna false.</returns>
-        public static bool operator !=(Alumno a, EClases clase)
+        public static bool operator !=(Alumno a, Universidad.EClases clase)
         {
             bool ret = false;
             if(a.claseQueToma != clase)
@@ -116,6 +127,15 @@ namespace Clases_Instanciables
                 ret = true;
             }
             return ret;
+        }
+        #endregion
+
+        #region Enumerados
+        public enum EEstadoCuenta
+        {
+            AlDia,
+            Deudor,
+            Becado
         }
         #endregion
     }

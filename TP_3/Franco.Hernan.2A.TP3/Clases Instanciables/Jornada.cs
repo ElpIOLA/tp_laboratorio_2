@@ -5,14 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Excepciones;
+using Archivos;
 
-namespace Clases_Instanciables
+namespace EntidadesInstanciables
 {
     public class Jornada
     {
         #region Atributos
         private List<Alumno> alumnos;
-        private EClases clase;
+        private Universidad.EClases clase;
         private Profesor instructor;
         #endregion
 
@@ -30,7 +31,7 @@ namespace Clases_Instanciables
         /// </summary>
         /// <param name="clases">Variable de tipo EClases</param>
         /// <param name="instructor">Objeto de tipo Profesor</param>
-        public Jornada(EClases clases, Profesor instructor) : this()
+        public Jornada(Universidad.EClases clases, Profesor instructor) : this()
         {
             this.clase = clases;
             this.instructor = instructor;
@@ -45,21 +46,8 @@ namespace Clases_Instanciables
         /// <returns>Retorna true si guardo sin errores, sino false.</returns>
         public static bool Guardar(Jornada jornada)
         {
-            bool ret = false;
-            string path = Environment.CurrentDirectory + @"\Jornada.txt";
-            try
-            {
-                using (StreamWriter archivo = new StreamWriter(path, false))
-                {
-                    archivo.WriteLine(jornada.ToString());
-                }
-                ret = true;
-            }
-            catch (ArchivosException e)
-            {
-                throw new ArchivosException(e);
-            }
-            return ret;
+            Texto text = new Texto();
+            return text.Guardar((AppDomain.CurrentDomain.BaseDirectory) + @"\Jornada.txt", jornada.ToString());
         }
 
         /// <summary>
@@ -69,18 +57,9 @@ namespace Clases_Instanciables
         public static string Leer()
         {
             string ret = "";
-            string path = @"\archivo.txt";
-            try
-            {
-                using(StreamReader archivo = new StreamReader(path, true))
-                {
-                    ret = archivo.ReadToEnd();
-                }
-            }
-            catch(ArchivosException e)
-            {
-                throw new ArchivosException(e);
-            }
+            Texto text = new Texto();
+            text.Leer((AppDomain.CurrentDomain.BaseDirectory) + @"\Jornada.txt", out ret);
+
             return ret;
         }
         #endregion
@@ -106,6 +85,12 @@ namespace Clases_Instanciables
             return ret;
         }
 
+        /// <summary>
+        /// Metodo que verifica que una Jornada sea distinta a un Alumno.
+        /// </summary>
+        /// <param name="j">bjeto de tipo Jornada</param>
+        /// <param name="a">Objeto de tipo Alumno</param>
+        /// <returns>Retorna false si son distintos, sino true.</returns>
         public static bool operator !=(Jornada j, Alumno a)
         {
             return !(j == a);
@@ -123,6 +108,10 @@ namespace Clases_Instanciables
             {
                 j.alumnos.Add(a);
             }
+            else
+            {
+                throw new AlumnoRepetidoException();
+            }
             return j;
         }
 
@@ -133,9 +122,10 @@ namespace Clases_Instanciables
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("Jornada:");
-            sb.AppendFormat("Clase de {0} por ", this.clase);
+            sb.AppendLine("JORNADA:");
+            sb.AppendFormat("Clase de {0} por {1}", this.clase,this.instructor);
             sb.AppendLine(this.instructor.ToString());
+            sb.AppendLine("ALUMNOS:");
             foreach (Alumno item in this.alumnos)
             {
                 sb.AppendLine(item.ToString());
