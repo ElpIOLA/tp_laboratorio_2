@@ -11,6 +11,12 @@ namespace Archivos
 {
     public class Xml<T> : IArchivo<T>
     {
+        /// <summary>
+        /// Genera y guarda un archivo xml.
+        /// </summary>
+        /// <param name="path">Variable de tipo String</param>
+        /// <param name="datos"></param>
+        /// <returns>Retorna true si lo guarda, sino lanza excepcion.</returns>
         public bool Guardar(string path, T datos)
         {
             bool retorno = false;
@@ -33,6 +39,12 @@ namespace Archivos
 
         }
 
+        /// <summary>
+        /// Lee un archivo de tipo Xml.
+        /// </summary>
+        /// <param name="path">Variable de tipo String</param>
+        /// <param name="datos"></param>
+        /// <returns>Retorna true si es leido con exito, sino lanza excepcion.</returns>
         public bool Leer(string path, out T datos)
         {
             bool retorno = false;

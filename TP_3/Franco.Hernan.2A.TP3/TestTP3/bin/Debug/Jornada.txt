@@ -1,34 +1,27 @@
 JORNADA:
-Clase de Programacion por 
+Clase de Laboratorio por 
 Nombre completo: Juan Lopez
 Nacionalidad: Argentino
 DNI: 12234456
 Legajo: 1CLASES DEL DIA:
 
+Laboratorio
 Legislacion
-Programacion
 
 Nombre completo: Juan Lopez
 Nacionalidad: Argentino
 DNI: 12234456
 Legajo: 1CLASES DEL DIA:
 
+Laboratorio
 Legislacion
-Programacion
 
 ALUMNOS:
 
-Nombre completo: Juan Lopez
-Nacionalidad: Argentino
-DNI: 12234456
-Legajo: 1ESTADO DE CUENTA: cuota becada.
-TOMA CLASE DE: Programacion
-
-
-Nombre completo: Carlos Gonzalez
-Nacionalidad: Argentino
-DNI: 12236456
-Legajo: 5ESTADO DE CUENTA: cuota al dia.
-TOMA CLASE DE: Programacion
+Nombre completo: Joaquin Suarez
+Nacionalidad: Extranjero
+DNI: 91122456
+Legajo: 7ESTADO DE CUENTA: cuota al dia.
+TOMA CLASE DE: Laboratorio
 
 

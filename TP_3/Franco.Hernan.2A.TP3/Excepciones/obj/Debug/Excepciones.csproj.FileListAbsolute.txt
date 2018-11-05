@@ -10,9 +10,3 @@ E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReferenc
 E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
 E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
 E:\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb
-C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
-C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
-C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
-C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
-C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
-C:\Users\mikaa\OneDrive\Escritorio\tp_laboratorio_2\TP_3\Franco.Hernan.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb
