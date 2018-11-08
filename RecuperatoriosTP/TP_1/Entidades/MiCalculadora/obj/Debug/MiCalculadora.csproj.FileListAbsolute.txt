@@ -1,0 +1,13 @@
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\bin\Debug\Entidades.dll
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_1\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
