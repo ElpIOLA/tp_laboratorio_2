@@ -1,0 +1,40 @@
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\bin\Debug\TP-02.exe.config
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\bin\Debug\TP-02.exe
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\bin\Debug\TP-02.pdb
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\bin\Debug\Entidades.dll
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\bin\Debug\Entidades.pdb
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\obj\Debug\TP-02.csprojResolveAssemblyReference.cache
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\obj\Debug\TP-02.exe
+D:\Federico\VB .Net\Visual C#\utn\TP-02\TP-02\obj\Debug\TP-02.pdb
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\bin\Debug\TP-02.exe.config
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\obj\Debug\TP-02.exe
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\obj\Debug\TP-02.pdb
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\obj\Debug\TP-02.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\bin\Debug\TP-02.exe
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\bin\Debug\TP-02.pdb
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\bin\Debug\Entidades.dll
+D:\VisualStudio\Federico Dávila\TP-02\TP-02\bin\Debug\Entidades.pdb
+D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\bin\Debug\TP-02.exe.config
+D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\obj\Debug\TP-02.exe
+D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\obj\Debug\TP-02.pdb
+D:\Federico\VB .Net\Visual C#\utn\TPs\2018\TP-02\TP-02\obj\Debug\TP-02.csprojResolveAssemblyReference.cache
+F:\TP-02\TP-02\bin\Debug\TP-02.exe.config
+F:\TP-02\TP-02\bin\Debug\TP-02.exe
+F:\TP-02\TP-02\bin\Debug\TP-02.pdb
+F:\TP-02\TP-02\bin\Debug\Entidades.dll
+F:\TP-02\TP-02\bin\Debug\Entidades.pdb
+F:\TP-02\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
+F:\TP-02\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+F:\TP-02\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+F:\TP-02\TP-02\obj\Debug\TP-02.exe
+F:\TP-02\TP-02\obj\Debug\TP-02.pdb
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\bin\Debug\TP-02.exe.config
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\bin\Debug\TP-02.exe
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\bin\Debug\TP-02.pdb
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\bin\Debug\Entidades.dll
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\bin\Debug\Entidades.pdb
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\obj\Debug\TP-02.exe
+F:\Programacion_2_Laboratorio_2_C-\Programacion_Laboratorio_II_2018\TP\TP_2\TP-02\obj\Debug\TP-02.pdb
